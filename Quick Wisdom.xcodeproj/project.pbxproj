@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7B0CC42C00861B0028910B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0CC32C00861B0028910B /* AppDelegate.swift */; };
+		EF7B0CC62C00861B0028910B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0CC52C00861B0028910B /* SceneDelegate.swift */; };
+		EF7B0CC82C00861B0028910B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0CC72C00861B0028910B /* ViewController.swift */; };
+		EF7B0CCB2C00861B0028910B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF7B0CCA2C00861B0028910B /* Base */; };
+		EF7B0CCD2C00861B0028910B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7B0CCC2C00861B0028910B /* Assets.xcassets */; };
+		EF7B0CD02C00861B0028910B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF7B0CCF2C00861B0028910B /* Base */; };
+		EF7B0CDB2C00861B0028910B /* Quick_WisdomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0CDA2C00861B0028910B /* Quick_WisdomTests.swift */; };
+		EF7B0CE52C00861B0028910B /* Quick_WisdomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0CE42C00861B0028910B /* Quick_WisdomUITests.swift */; };
+		EF7B0CE72C00861B0028910B /* Quick_WisdomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0CE62C00861B0028910B /* Quick_WisdomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7B0CD72C00861B0028910B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7B0CB82C00861B0028910B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7B0CBF2C00861B0028910B;
+			remoteInfo = "Quick Wisdom";
+		};
+		EF7B0CE12C00861B0028910B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7B0CB82C00861B0028910B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7B0CBF2C00861B0028910B;
+			remoteInfo = "Quick Wisdom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF7B0CC02C00861B0028910B /* Quick Wisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Wisdom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7B0CC32C00861B0028910B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7B0CC52C00861B0028910B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF7B0CC72C00861B0028910B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF7B0CCA2C00861B0028910B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7B0CCC2C00861B0028910B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7B0CCF2C00861B0028910B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7B0CD12C00861B0028910B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7B0CD62C00861B0028910B /* Quick WisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick WisdomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7B0CDA2C00861B0028910B /* Quick_WisdomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_WisdomTests.swift; sourceTree = "<group>"; };
+		EF7B0CE02C00861B0028910B /* Quick WisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick WisdomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7B0CE42C00861B0028910B /* Quick_WisdomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_WisdomUITests.swift; sourceTree = "<group>"; };
+		EF7B0CE62C00861B0028910B /* Quick_WisdomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_WisdomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7B0CBD2C00861B0028910B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B0CD32C00861B0028910B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B0CDD2C00861B0028910B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7B0CB72C00861B0028910B = {
+			isa = PBXGroup;
+			children = (
+				EF7B0CC22C00861B0028910B /* Quick Wisdom */,
+				EF7B0CD92C00861B0028910B /* Quick WisdomTests */,
+				EF7B0CE32C00861B0028910B /* Quick WisdomUITests */,
+				EF7B0CC12C00861B0028910B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7B0CC12C00861B0028910B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B0CC02C00861B0028910B /* Quick Wisdom.app */,
+				EF7B0CD62C00861B0028910B /* Quick WisdomTests.xctest */,
+				EF7B0CE02C00861B0028910B /* Quick WisdomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7B0CC22C00861B0028910B /* Quick Wisdom */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B0CC32C00861B0028910B /* AppDelegate.swift */,
+				EF7B0CC52C00861B0028910B /* SceneDelegate.swift */,
+				EF7B0CC72C00861B0028910B /* ViewController.swift */,
+				EF7B0CC92C00861B0028910B /* Main.storyboard */,
+				EF7B0CCC2C00861B0028910B /* Assets.xcassets */,
+				EF7B0CCE2C00861B0028910B /* LaunchScreen.storyboard */,
+				EF7B0CD12C00861B0028910B /* Info.plist */,
+			);
+			path = "Quick Wisdom";
+			sourceTree = "<group>";
+		};
+		EF7B0CD92C00861B0028910B /* Quick WisdomTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B0CDA2C00861B0028910B /* Quick_WisdomTests.swift */,
+			);
+			path = "Quick WisdomTests";
+			sourceTree = "<group>";
+		};
+		EF7B0CE32C00861B0028910B /* Quick WisdomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B0CE42C00861B0028910B /* Quick_WisdomUITests.swift */,
+				EF7B0CE62C00861B0028910B /* Quick_WisdomUITestsLaunchTests.swift */,
+			);
+			path = "Quick WisdomUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7B0CBF2C00861B0028910B /* Quick Wisdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7B0CEA2C00861B0028910B /* Build configuration list for PBXNativeTarget "Quick Wisdom" */;
+			buildPhases = (
+				EF7B0CBC2C00861B0028910B /* Sources */,
+				EF7B0CBD2C00861B0028910B /* Frameworks */,
+				EF7B0CBE2C00861B0028910B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick Wisdom";
+			productName = "Quick Wisdom";
+			productReference = EF7B0CC02C00861B0028910B /* Quick Wisdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7B0CD52C00861B0028910B /* Quick WisdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7B0CED2C00861B0028910B /* Build configuration list for PBXNativeTarget "Quick WisdomTests" */;
+			buildPhases = (
+				EF7B0CD22C00861B0028910B /* Sources */,
+				EF7B0CD32C00861B0028910B /* Frameworks */,
+				EF7B0CD42C00861B0028910B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7B0CD82C00861B0028910B /* PBXTargetDependency */,
+			);
+			name = "Quick WisdomTests";
+			productName = "Quick WisdomTests";
+			productReference = EF7B0CD62C00861B0028910B /* Quick WisdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7B0CDF2C00861B0028910B /* Quick WisdomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7B0CF02C00861B0028910B /* Build configuration list for PBXNativeTarget "Quick WisdomUITests" */;
+			buildPhases = (
+				EF7B0CDC2C00861B0028910B /* Sources */,
+				EF7B0CDD2C00861B0028910B /* Frameworks */,
+				EF7B0CDE2C00861B0028910B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7B0CE22C00861B0028910B /* PBXTargetDependency */,
+			);
+			name = "Quick WisdomUITests";
+			productName = "Quick WisdomUITests";
+			productReference = EF7B0CE02C00861B0028910B /* Quick WisdomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7B0CB82C00861B0028910B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EF7B0CBF2C00861B0028910B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EF7B0CD52C00861B0028910B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF7B0CBF2C00861B0028910B;
+					};
+					EF7B0CDF2C00861B0028910B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF7B0CBF2C00861B0028910B;
+					};
+				};
+			};
+			buildConfigurationList = EF7B0CBB2C00861B0028910B /* Build configuration list for PBXProject "Quick Wisdom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7B0CB72C00861B0028910B;
+			productRefGroup = EF7B0CC12C00861B0028910B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7B0CBF2C00861B0028910B /* Quick Wisdom */,
+				EF7B0CD52C00861B0028910B /* Quick WisdomTests */,
+				EF7B0CDF2C00861B0028910B /* Quick WisdomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7B0CBE2C00861B0028910B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7B0CCD2C00861B0028910B /* Assets.xcassets in Resources */,
+				EF7B0CD02C00861B0028910B /* Base in Resources */,
+				EF7B0CCB2C00861B0028910B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B0CD42C00861B0028910B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B0CDE2C00861B0028910B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7B0CBC2C00861B0028910B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7B0CC82C00861B0028910B /* ViewController.swift in Sources */,
+				EF7B0CC42C00861B0028910B /* AppDelegate.swift in Sources */,
+				EF7B0CC62C00861B0028910B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B0CD22C00861B0028910B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7B0CDB2C00861B0028910B /* Quick_WisdomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B0CDC2C00861B0028910B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7B0CE52C00861B0028910B /* Quick_WisdomUITests.swift in Sources */,
+				EF7B0CE72C00861B0028910B /* Quick_WisdomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7B0CD82C00861B0028910B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7B0CBF2C00861B0028910B /* Quick Wisdom */;
+			targetProxy = EF7B0CD72C00861B0028910B /* PBXContainerItemProxy */;
+		};
+		EF7B0CE22C00861B0028910B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7B0CBF2C00861B0028910B /* Quick Wisdom */;
+			targetProxy = EF7B0CE12C00861B0028910B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7B0CC92C00861B0028910B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7B0CCA2C00861B0028910B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7B0CCE2C00861B0028910B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7B0CCF2C00861B0028910B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7B0CE82C00861B0028910B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7B0CE92C00861B0028910B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7B0CEB2C00861B0028910B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SWYXK4QR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quick Wisdom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sevval.Quick-Wisdom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7B0CEC2C00861B0028910B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SWYXK4QR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quick Wisdom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sevval.Quick-Wisdom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF7B0CEE2C00861B0028910B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SWYXK4QR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sevval.Quick-WisdomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Wisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quick Wisdom";
+			};
+			name = Debug;
+		};
+		EF7B0CEF2C00861B0028910B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SWYXK4QR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sevval.Quick-WisdomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Wisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quick Wisdom";
+			};
+			name = Release;
+		};
+		EF7B0CF12C00861B0028910B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SWYXK4QR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sevval.Quick-WisdomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quick Wisdom";
+			};
+			name = Debug;
+		};
+		EF7B0CF22C00861B0028910B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SWYXK4QR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sevval.Quick-WisdomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quick Wisdom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7B0CBB2C00861B0028910B /* Build configuration list for PBXProject "Quick Wisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7B0CE82C00861B0028910B /* Debug */,
+				EF7B0CE92C00861B0028910B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7B0CEA2C00861B0028910B /* Build configuration list for PBXNativeTarget "Quick Wisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7B0CEB2C00861B0028910B /* Debug */,
+				EF7B0CEC2C00861B0028910B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7B0CED2C00861B0028910B /* Build configuration list for PBXNativeTarget "Quick WisdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7B0CEE2C00861B0028910B /* Debug */,
+				EF7B0CEF2C00861B0028910B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7B0CF02C00861B0028910B /* Build configuration list for PBXNativeTarget "Quick WisdomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7B0CF12C00861B0028910B /* Debug */,
+				EF7B0CF22C00861B0028910B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7B0CB82C00861B0028910B /* Project object */;
+}
